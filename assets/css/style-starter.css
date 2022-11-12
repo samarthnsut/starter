@@ -664,6 +664,9 @@ font-weight: 400;
   padding: 2rem;
   margin: 2rem;
 }
+.diff-card{
+  margin-bottom: 2rem;
+}
 .course-card-head{
   margin: 1rem;
   /* padding: 1rem;  */
@@ -678,8 +681,7 @@ font-weight: 400;
   box-shadow: 0.3rem 0.3rem #5b616e ;
   text-align: center;
   padding: 2rem;
-  /* margin: 2rem; */
-  margin-left: 3rem;
+  margin: 2rem;
 }
 .what-we-do-head{
   padding: 1rem;
