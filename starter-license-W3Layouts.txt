@@ -16,3 +16,10 @@ LIMITATIONS
 
 
 For more details contact support@w3layouts.com
+
+
+font size increase 
+remove get started
+corosel in 2nd window 
+diffrentiate sections
+remove about us section
