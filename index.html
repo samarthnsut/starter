@@ -28,10 +28,7 @@ Author URL: http://w3layouts.com
                         <img class="logo-img" src="assets/images/Logo.jpg" alt=" ">
                     </a>
                 </h1>
-                <!-- if logo is image enable this   
-    <a class="navbar-brand" href="#index.html">
-        <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
-    </a> -->
+
                 <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse"
                     data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -105,12 +102,12 @@ Author URL: http://w3layouts.com
         <div class="container pt-5 pb-md-4">
             <div class="row align-items-center">
                 <div class="col-md-6 banner-left pt-md-0 pt-5">
-                    <p class="mb-sm-4 mb-3 title section-1-text">A platform that takes you from<br> being “sort-of-ready” to being <span class="type-js"><span
-                                class="text-js">“Recruitment Ready”</span></span></p>
-                    <div class="mt-md-5 mt-4 mb-lg-0 mb-4">
+                    <p class="mb-sm-4 mb-3 title section-1-text" style="font-size: 2.2rem;">A platform that takes you from<br>  <span class="type-js"><span
+                                class="text-js"> being “sort-of-ready” to being “Recruitment Ready”</span></span></p>
+                    <!-- <div class="mt-md-5 mt-4 mb-lg-0 mb-4">
                         <a class="btn button-style" href="about.html">Get Started<i class="fa fa-angle-double-right"
                                 aria-hidden="true"></i></a>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="col-md-6 banner-right mt-md-0 mt-4">
                     <img class="img-fluid" src="assets/images/b1.png" alt=" ">
@@ -122,17 +119,74 @@ Author URL: http://w3layouts.com
     <section>
         <div class="w3l-index-block4 pb-5 sec-2-div-1">
             <div  class="features-bg pb-lg-5 pt-lg-4 py-4 sec-2-div-2">
-                <div class="container">
-                    <div>
-                    <p class="section-2-text">
-                        “Training alone can improve performance by 22%, while training <br/>
-                            accompanied by coaching can improve performance by 88%.” <br/>
-                                            – Harvard Business Review
-                    </p>
-                    </div>
+                <div class="container carousel-div">
+                   
 
                     <div class="container">
-                        <div class="row features">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <div class="col feature-card d-block w-100">
+                                    <div class="feature-img">
+                                        <img src="assets/images/stats2.png" /> 
+                                    </div>
+                                    <div class="feature-num">
+                                        <span>95%</span>
+                                    </div>
+                                    <div class="feature-text">
+                                        <span>Freshers do not have<br/>
+                                            right job hunt strategy<br>
+                                            due to lack of mentorship<br/></span>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <div class="col feature-card d-block w-100">
+                                    <div class="feature-img">
+                                        <img src="assets/images/stats1.png" /> 
+                                    </div>
+                                 <div class="feature-num">
+                                     <span>80%</span>
+                                 </div>
+                                 <div class="feature-text">
+                                     <span >Freshers do not have<br/>
+                                         right job hunt strategy<br>
+                                         due to lack of mentorship<br/></span>
+                                 </div>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <div class="col feature-card">
+                                    <div class="feature-img">
+                                        <img src="assets/images/stats4.png" /> 
+                                    </div>
+                                 <div class="feature-num">
+                                     <span>5 Mn</span>
+                                 </div>
+                                 <div class="feature-text">
+                                     <span>Freshers do not have<br/>
+                                         right job hunt strategy<br>
+                                         due to lack of mentorship<br/></span>
+                                 </div>
+                                </div>
+                              </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev" >
+                              <span class="carousel-control-prev-icon" aria-hidden="true"style="color: black;" ></span>
+                              <span class="sr-only" style="color: black;">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Next</span>
+                            </a>
+                          </div>
+
+                        <!-- <div class="row features">
                             <div class="col feature-card">
                                 <div class="feature-img">
                                     <img src="assets/images/stats2.png" /> 
@@ -149,7 +203,7 @@ Author URL: http://w3layouts.com
                             <div class="col feature-card">
                                 <div class="feature-img">
                                     <img src="assets/images/stats1.png" /> 
-                             </div>
+                                </div>
                              <div class="feature-num">
                                  <span>80%</span>
                              </div>
@@ -172,7 +226,15 @@ Author URL: http://w3layouts.com
                                      due to lack of mentorship<br/></span>
                              </div>
                             </div>
-                        </div>        
+                        </div>         -->
+
+                    </div>
+                    <div class="carousel-div-head">
+                        <p class="section-2-text">
+                            “Training alone can improve performance by 22%, while training <br/>
+                                accompanied by coaching can improve performance by 88%.” <br/>
+                                                – Harvard Business Review
+                        </p>
                     </div>
                  </div>
             </div>

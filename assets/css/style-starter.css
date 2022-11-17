@@ -575,8 +575,8 @@ mark,
   height: 3rem;  
 }
 .img-fluid {
-  max-width: 100%;
-  height: 100%;
+  width: 80%;
+  height: 80%;
 }
 .section-1-text{
   font-size: 1.6rem;
@@ -728,7 +728,9 @@ font-weight: 400;
   max-width: 100%;
   height: auto;
 }
-
+.carousel-div-head{
+  margin: 2rem;
+}
 
 .figure {
   display: inline-block;
