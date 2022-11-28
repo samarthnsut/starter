@@ -709,6 +709,8 @@ font-weight: 400;
 .team-img{
   margin: 1rem;
   width: 100%;
+  max-width: 300px;
+  align-items: center;
   height: 16rem;
   border-radius: 1rem;
   border: 1px solid #ccc;

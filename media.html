@@ -32,7 +32,7 @@
 
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul class="navbar-nav ml-lg-auto">
-                        <li class="nav-item active">
+                        <li class="nav-item">
                             <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
@@ -41,8 +41,8 @@
                         <li class="nav-item">
                             <a class="nav-link" href="courses.html">Courses</a>
                         </li>
-                        <li class="nav-items">
-                            <a class="nav-link" href="team.html">Team</a>
+                        <li class="nav-items active">
+                            <a class="nav-link" href="media.html">Media</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="contact.html">Contact Us</a>
@@ -90,72 +90,55 @@
             </nav>
         </div>
     </header>
+
     <section>
         <div class="container pt-5 pb-md-4">
             <div class="features-bg pb-lg-5 pt-lg-4 py-4 sec-2-div-2">
                 <div class="team-head">
-                    <h3> Our Educators</h3>
+                    <h3> Media Content</h3>
                 </div>
-                <div class="row team-container">
-                    <div class="col-3 team-card">
-                        <a href="https://www.linkedin.com/in/nareshkumar16a/" class="profile-link" target="_blank">
-                            <img src="assets/images/team-naresh.jpg" class="team-img"/>
-                        </a>
-                        <div class="profile-text">
-                            Naresh Kumar <br/>
-                            DGM- Absolute <br/> 
-                            IIM-Ahmedabad
-                        </div>
+                <br />
+                <br />
+
+                
+                
+                <div class="row">
+                    <div class="col-md-5">
+                        IMAGE
                     </div>
-                    <div class="col-5"></div>
-                    <div class="col-3">
-                        <a href="https://www.linkedin.com/in/himanshu-saxena-6163a221/" class="profile-link" target="_blank">
-                            <img src="assets/images/team-himanshu.jpg" class="team-img"/>
-                        </a>
-                        <div class="profile-text">
-                            Himanshu Saxena <br>
-                            NSM- FOSS India <br/>
-                            IIM-Calcutta
-                        </div>
+                    <div class="col-md-7">
+                        Techlist Solutions visited Guru Jambheshwar University of
+                        Science and Technology, Hisar and interacted with students
+                        from Graduate and Post Graduate Courses in Food Science
+                        and Technology and other allied fields.
+
+                        The students were pumped up from learning about the
+                        opportunities through new emerging roles across
+                        agriculture and food technology
                     </div>
                 </div>
-                <div class="team-head">
-                    <h3> Our Experts</h3>
-                </div>
-                <div class="row team-container">
-                    <div class="col-3">
-                        <a href="https://www.linkedin.com/in/om-prakash-pathak-58bb8966/" class="profile-link" target="_blank">
-                          <img src="assets/images/team-om.jpg" class="team-img"/>
-                        </a>
-                        <div class="profile-text">
-                            Om Prakash Pathak <br/>
-                            Team Lead, Gartner <br/> 
-                            IIM-Ahmedabad
-                        </div>
+                <br />
+                <br />
+                <br />
+
+                <div class="row">
+                    <div class="col-md-7">
+                        Techlist Solutions was invited by Raja Balwant Singh College (RBS) Agra to
+                        deliver a talk on “Changing Skillsets Requirements in Food and Bio-Technology.
+
+                        Our Educators Mr Naresh Kumar and Mr. Himanshu Saxena gave tips for
+                        building a strong LinkedIn Profile and a stellar CV. They attended to the queries
+                        related to placement and career selection from the students at the end of the
+                        talk.
                     </div>
-                    <div class="col-1"></div>
-                    <div class="col-3">
-                        <a href="https://www.linkedin.com/in/mo-bash/" class="profile-link" target="_blank">
-                            <img src="assets/images/team-basheer.jpg" class="team-img"/>
-                        </a>
-                        <div class="profile-text">
-                            Mohammad Bashir<br/>
-                            Ex-HSBC, Ex- Amazon <br/> 
-                            IIM-Ahmedabad
-                        </div>
-                    </div>
-                    <div class="col-1"></div>
-                    <div class="col-3">
-                        <a href="https://www.linkedin.com/in/atul-kumar-672690139/" class="profile-link" target="_blank">
-                            <img src="assets/images/team-atul.jpg" class="team-img"/>
-                        </a>
-                        <div class="profile-text">
-                            Atul Kumar <br/>
-                            Product Manager- Kotak Bank <br/> 
-                            IIM-Ahmedabad
-                        </div>
+                    <div class="col-md-5">
+                        IMAGE
                     </div>
                 </div>
+                <br />
+                <br />
+                <br />
+
                 
             </div>
         </div>
@@ -247,4 +230,228 @@
         </div>
         <!-- //copyright -->
     </footer>
+
+        <!-- Js scripts -->
+    <!-- move top -->
+    <button onclick="topFunction()" id="movetop" title="Go to top">
+        <span class="fa fa-level-up" aria-hidden="true"></span>
+    </button>
+    <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("movetop").style.display = "block";
+            } else {
+                document.getElementById("movetop").style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <!-- //move top -->
+    <!-- magnific popup -->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.popup-with-zoom-anim').magnificPopup({
+                type: 'inline',
+
+                fixedContentPos: false,
+                fixedBgPos: true,
+
+                overflowY: 'auto',
+
+                closeBtnInside: true,
+                preloader: false,
+
+                midClick: true,
+                removalDelay: 300,
+                mainClass: 'my-mfp-zoom-in'
+            });
+
+            $('.popup-with-move-anim').magnificPopup({
+                type: 'inline',
+
+                fixedContentPos: false,
+                fixedBgPos: true,
+
+                overflowY: 'auto',
+
+                closeBtnInside: true,
+                preloader: false,
+
+                midClick: true,
+                removalDelay: 300,
+                mainClass: 'my-mfp-slide-bottom'
+            });
+        });
+    </script>
+    <!-- //magnific popup -->
+    <!-- common jquery plugin -->
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <!-- //common jquery plugin -->
+
+    <!-- theme switch js (light and dark)-->
+    <script src="assets/js/theme-change.js"></script>
+    <script>
+        function autoType(elementClass, typingSpeed) {
+            var thhis = $(elementClass);
+            thhis.css({
+                "position": "relative",
+                "display": "inline-block"
+            });
+            thhis.prepend('<div class="cursor" style="right: initial; left:0;"></div>');
+            thhis = thhis.find(".text-js");
+            var text = thhis.text().trim().split('');
+            var amntOfChars = text.length;
+            var newString = "";
+            thhis.text("|");
+            setTimeout(function () {
+                thhis.css("opacity", 1);
+                thhis.prev().removeAttr("style");
+                thhis.text("");
+                for (var i = 0; i < amntOfChars; i++) {
+                    (function (i, char) {
+                        setTimeout(function () {
+                            newString += char;
+                            thhis.text(newString);
+                        }, i * typingSpeed);
+                    })(i + 1, text[i]);
+                }
+            }, 1500);
+        }
+
+        $(document).ready(function () {
+            // Now to start autoTyping just call the autoType function with the 
+            // class of outer div
+            // The second paramter is the speed between each letter is typed.   
+            autoType(".type-js", 200);
+        });
+    </script>
+    <!-- //theme switch js (light and dark)-->
+
+    <!-- magnific popup -->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.popup-with-zoom-anim').magnificPopup({
+                type: 'inline',
+
+                fixedContentPos: false,
+                fixedBgPos: true,
+
+                overflowY: 'auto',
+
+                closeBtnInside: true,
+                preloader: false,
+
+                midClick: true,
+                removalDelay: 300,
+                mainClass: 'my-mfp-zoom-in'
+            });
+
+            $('.popup-with-move-anim').magnificPopup({
+                type: 'inline',
+
+                fixedContentPos: false,
+                fixedBgPos: true,
+
+                overflowY: 'auto',
+
+                closeBtnInside: true,
+                preloader: false,
+
+                midClick: true,
+                removalDelay: 300,
+                mainClass: 'my-mfp-slide-bottom'
+            });
+        });
+    </script>
+    <!-- //magnific popup -->
+
+    <!-- MENU-JS -->
+    <script>
+        $(window).on("scroll", function () {
+            var scroll = $(window).scrollTop();
+
+            if (scroll >= 80) {
+                $("#site-header").addClass("nav-fixed");
+            } else {
+                $("#site-header").removeClass("nav-fixed");
+            }
+        });
+
+        //Main navigation Active Class Add Remove
+        $(".navbar-toggler").on("click", function () {
+            $("header").toggleClass("active");
+        });
+        $(document).on("ready", function () {
+            if ($(window).width() > 991) {
+                $("header").removeClass("active");
+            }
+            $(window).on("resize", function () {
+                if ($(window).width() > 991) {
+                    $("header").removeClass("active");
+                }
+            });
+        });
+    </script>
+    <!-- //MENU-JS -->
+
+    <!-- for testimonials carousel -->
+    <script src="assets/js/owl.carousel.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#owl-demo1").owlCarousel({
+                loop: true,
+                margin: 20,
+                responsiveClass: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: true
+                    },
+                    600: {
+                        items: 1,
+                        nav: false
+                    },
+                    1000: {
+                        items: 1,
+                        nav: true,
+                        loop: true
+                    }
+                }
+            })
+        })
+    </script>
+    <!-- //for testimonials carousel -->
+
+    <!-- disable body scroll which navbar is in active -->
+    <script>
+        $(function () {
+            $('.navbar-toggler').click(function () {
+                $('body').toggleClass('noscroll');
+            })
+        });
+    </script>
+    <!-- //disable body scroll which navbar is in active -->
+
+    <!-- counter for stats -->
+    <script src="assets/js/counter.js"></script>
+    <!-- //counter for stats -->
+
+    <!--bootstrap-->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- //bootstrap-->
+    <!-- //Js scripts -->
 </body>
+
+</html>
