@@ -722,12 +722,32 @@ font-weight: 400;
 }
 .pic-2{
   height: 50%;
-
   margin-top: -4rem;
   margin-left: 3rem;
-
   width: 70%;
 
+}
+.pic-3{
+  height: 50%;
+  width: 70%;
+  margin-top: 2.5rem;
+}
+.pic-4{
+  height: 60%;
+  width: 80%;
+}
+.pic-5{
+  height: 70;
+  width: 70%;
+  margin-top: -1.5rem;
+  margin-left: 1rem;
+}
+.pic-6{
+  height: 60%;
+  width: 60%;
+  margin-top: 2rem;
+  margin-left: 40%;
+  align-self: right;
 }
 .carousel-control-prev-icon:after {
   content: '<';
