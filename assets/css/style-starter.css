@@ -749,6 +749,7 @@ font-weight: 400;
   margin-left: 40%;
   align-self: right;
 }
+
 .carousel-control-prev-icon:after {
   content: '<';
   font-size: 30px;
@@ -792,7 +793,31 @@ font-weight: 400;
 .figure {
   display: inline-block;
 }
-
+#cloud-1{
+  margin-left: -8rem;
+}
+#cloud-2{
+  margin-left: 10rem;
+}
+#cloud-3{
+  margin-left: -8rem;
+}
+#cloud-4{
+  margin-left: 8rem;
+}
+#think-1{
+  height: 60%;
+  margin-top: 10rem;
+}
+#think-2{
+  height: 40%;
+}
+#think-3{
+  height: 70%;
+}
+#think-4{
+  height: 70%;
+}
 .figure-img {
   margin-bottom: 0.5rem;
   line-height: 1;
