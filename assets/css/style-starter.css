@@ -76,6 +76,7 @@ body {
   color: #212529;
   text-align: left;
   background-color: #fff;
+  width: 100%;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -795,19 +796,23 @@ font-weight: 400;
 }
 #cloud-1{
   margin-left: -8rem;
+  /* width: 50%; */
 }
 #cloud-2{
   margin-left: 10rem;
+  width: 50%;
 }
 #cloud-3{
   margin-left: -8rem;
+  width: 50%;
 }
 #cloud-4{
   margin-left: 8rem;
+  width: 50%;
 }
 #think-1{
   height: 60%;
-  margin-top: 10rem;
+  margin-top: 8rem;
 }
 #think-2{
   height: 40%;
