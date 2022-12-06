@@ -827,7 +827,16 @@ font-weight: 400;
   margin-bottom: 0.5rem;
   line-height: 1;
 }
+.form_labels{
 
+  margin-top: 1rem;
+}
+.submit-btn{
+  width: 20%;
+  margin: auto;
+
+  margin-top: 1rem;
+}
 .figure-caption {
   font-size: 90%;
   color: #6c757d;
