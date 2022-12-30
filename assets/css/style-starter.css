@@ -790,26 +790,43 @@ font-weight: 400;
 .carousel-div-head{
   margin: 2rem;
 }
-
+.divider{
+  width: 40%;
+  height: 100px;
+      position: relative;
+        top: 20px;
+        border: none;
+        height: 12px;
+        background: #f50057;
+        margin-bottom: 50px;
+}
+.left-divider{
+  margin-left: 5rem;
+}
+#right-divider{
+  margin-left: 50%;
+}
+.think-img{
+  width: 20%;
+  height: 50%;
+}
 .figure {
   display: inline-block;
 }
 #cloud-1{
-  margin-left: -8rem;
-  /* width: 50%; */
+  margin: 2rem;
+  width: 70%;
+  height: 84%;
 }
 #cloud-2{
-  margin-left: 10rem;
-  width: 50%;
+  margin: 2rem;
+  width: 70%;
 }
 #cloud-3{
-  margin-left: -8rem;
-  width: 50%;
+  margin: 2rem;
+  width: 70%;
 }
-#cloud-4{
-  margin-left: 8rem;
-  width: 50%;
-}
+
 #think-1{
   height: 60%;
   margin-top: 8rem;
