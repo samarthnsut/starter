@@ -667,6 +667,8 @@ font-weight: 400;
 }
 .diff-card{
   margin-bottom: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 .course-card-head{
   margin: 1rem;
@@ -677,9 +679,9 @@ font-weight: 400;
   margin: 2rem;
 }
 .what-we-do-card{
-  border: 0.5px black solid;
+  /* border: 0.5px black solid;
   border-radius: 0.6rem;
-  box-shadow: 0.3rem 0.3rem #5b616e ;
+  box-shadow: 0.3rem 0.3rem #5b616e ; */
   text-align: center;
   padding: 2rem;
   margin: 2rem;
@@ -750,7 +752,9 @@ font-weight: 400;
   margin-left: 40%;
   align-self: right;
 }
-
+.main-title{
+  line-height: 1.5;
+}
 .carousel-control-prev-icon:after {
   content: '<';
   font-size: 30px;
@@ -793,22 +797,22 @@ font-weight: 400;
 .divider{
   width: 40%;
   height: 100px;
-      position: relative;
-        top: 20px;
-        border: none;
-        height: 12px;
-        background: #f50057;
-        margin-bottom: 50px;
+  position: relative;
+  top: 20px;
+  border: none;
+  height: 12px;
+  background: #f50057;
+  margin-bottom: 50px;
 }
 .left-divider{
   margin-left: 5rem;
 }
 #right-divider{
-  margin-left: 50%;
+  margin-right: 5rem;
 }
 .think-img{
-  width: 20%;
-  height: 50%;
+  width: 5rem;
+  height: 45%;
 }
 .figure {
   display: inline-block;
