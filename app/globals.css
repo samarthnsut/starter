@@ -1,0 +1,114 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  /* Techlist pink — matches original site (#f50057) and logo crimson-rose */
+  --color-brand-50: #fff0f6;
+  --color-brand-100: #ffdeeb;
+  --color-brand-200: #ffc2d9;
+  --color-brand-300: #ff8fb8;
+  --color-brand-400: #ff4081;
+  --color-brand-500: #f50057;
+  --color-brand-600: #e91e63;
+  --color-brand-700: #c2185b;
+  --color-brand-800: #ad1457;
+  --color-brand-900: #880e4f;
+  --color-brand-950: #560027;
+
+  /* Logo olive green — secondary accent */
+  --color-accent-500: #4a5d23;
+  --color-accent-600: #3d4f1c;
+  --color-accent-700: #2f3d15;
+
+  --font-sans: var(--font-roboto), ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-white text-slate-800 antialiased transition-colors duration-300;
+  }
+
+  html.dark body {
+    @apply bg-slate-950 text-slate-100;
+  }
+}
+
+@layer utilities {
+  .section-container {
+    @apply mx-auto max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .section-heading {
+    @apply text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl dark:text-slate-50;
+  }
+
+  .section-subheading {
+    @apply mt-3 text-lg leading-relaxed text-slate-600 dark:text-slate-300;
+  }
+
+  .card-surface {
+    @apply rounded-2xl border border-slate-200/80 bg-white text-slate-700 shadow-sm transition-colors duration-300 dark:border-slate-800/80 dark:bg-slate-900/90 dark:text-slate-200;
+  }
+
+  html.dark .card-surface {
+    @apply border-slate-800/80 bg-slate-900/90 text-slate-200;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center gap-2 rounded-full bg-brand-500 px-6 py-3 text-sm font-semibold text-white shadow-lg transition hover:bg-brand-600;
+    box-shadow: 0 10px 25px -5px color-mix(in srgb, var(--color-brand-500) 30%, transparent);
+  }
+
+  .btn-primary:hover {
+    box-shadow: 0 10px 25px -5px color-mix(in srgb, var(--color-brand-500) 45%, transparent);
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center gap-2 rounded-full border border-brand-500 px-6 py-3 text-sm font-semibold text-brand-600 transition hover:bg-brand-50;
+  }
+
+  html.dark .btn-outline {
+    @apply border-brand-400 text-brand-300;
+  }
+
+  html.dark .btn-outline:hover {
+    background-color: color-mix(in srgb, var(--color-brand-900) 40%, transparent);
+  }
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.typewriter-cursor::after {
+  content: "|";
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+  color: var(--color-brand-500);
+}
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.6s ease-out forwards;
+}
