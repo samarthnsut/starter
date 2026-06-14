@@ -7,6 +7,7 @@ import {
 } from "@/lib/data";
 import { ArrowRight, Handshake, Sparkles, Target } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -63,9 +64,9 @@ export default function AboutPage() {
                   Explore our work
                   <ArrowRight className="h-4 w-4" />
                 </a>
-                <a href="/courses" className="btn-outline">
+                <Link href="/courses" className="btn-outline">
                   View courses
-                </a>
+                </Link>
               </div>
             </div>
 

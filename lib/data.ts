@@ -1,3 +1,5 @@
+import { withBasePath } from "./paths";
+
 export const siteConfig = {
   name: "Techlist Solutions",
   email: "info@techlistsolutions.com",

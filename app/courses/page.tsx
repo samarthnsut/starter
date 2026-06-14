@@ -1,6 +1,7 @@
 import CourseModuleCard from "@/components/CourseModuleCard";
 import { courseModules } from "@/lib/data";
 import { ArrowRight, BadgeCheck, BookOpenCheck, MessagesSquare, Route, Sparkles } from "lucide-react";
+import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -55,9 +56,9 @@ export default function CoursesPage() {
                   Browse modules
                   <ArrowRight className="h-4 w-4" />
                 </a>
-                <a href="/contact" className="btn-outline">
+                <Link href="/contact" className="btn-outline">
                   Talk to us
-                </a>
+                </Link>
               </div>
             </div>
 
